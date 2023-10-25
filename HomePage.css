@@ -1,0 +1,359 @@
+.body {
+  background-color: rgb(218, 218, 218);
+  background-attachment: fixed;
+  left: 0;
+  right: 0;
+}
+
+.NavBar {
+  display: flex;
+  background-color: rgb(69, 69, 69);
+  height: 50px;
+  position: fixed;
+  width: 100%;
+  background-attachment: fix;
+  z-index: 2;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+}
+.GettingReady {
+  width: 50%;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+.Menu {
+  width: 50%;
+  text-align: right;
+  padding-right: 80px;
+  padding-top: 15px;
+}
+
+.aInNav {
+  text-decoration: none;
+  color: rgb(154, 154, 154);
+  font-size: x-large;
+  font-style: oblique;
+}
+.SecondSession {
+  text-align: center;
+}
+.SecondSession img {
+  padding-top: 70px;
+  height: 400px;
+  width: 500px;
+  position: relative;
+  background-attachment: fixed;
+  z-index: 1;
+}
+.SecondSession h2 {
+  color: rgb(255, 19, 19);
+}
+.SecondSession p {
+  color: rgb(83, 83, 83);
+  font-weight: 800;
+  font-size: xx-large;
+}
+.aInNav:hover {
+  color: rgb(0, 0, 0);
+}
+.LOGO img {
+  height: 50px;
+  width: 50px;
+}
+.thirdSection {
+  background-image: url("Photos/wallpaperflare.com_wallpaper\ \(19\).jpg");
+  width: 100%;
+  height: 700px;
+  background-size: cover;
+  margin-top: 100px;
+  background-attachment: fixed;
+}
+.photoInside {
+  display: flex;
+}
+.empty {
+  width: 20%;
+  height: 200px;
+}
+.article {
+  width: 60%;
+  height: 1300px;
+  background-color: white;
+}
+.empty2 {
+  width: 20%;
+  height: 200px;
+}
+.article h2 {
+  margin-top: 50px;
+  color: rgb(255, 19, 19);
+  text-align: center;
+}
+.article img {
+  padding-top: 100px;
+  padding-left: 380px;
+  height: 50px;
+  width: 50px;
+}
+.article p {
+  padding: 20px 100px 20px 100px;
+  text-align: center;
+  font-size: xx-large;
+}
+.article h1 {
+  text-align: center;
+  color: rgb(255, 19, 19);
+  padding-top: 50px;
+}
+.article a {
+  text-align: center;
+  text-decoration: none;
+}
+.article a h2:hover {
+  color: black;
+}
+
+.MomStrong {
+  background-image: url("Photos/wallpaperflare.com_wallpaper\ \(17\).jpg");
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.MomStrong h1 {
+  text-align: center;
+  padding-top: 150px;
+  text-decoration: none;
+  color: white;
+}
+.MomStrong a {
+  text-decoration: none;
+  color: white;
+  font-family: DharmaGothicE-Light, "Arial Narrow", Arial, sans-serif;
+
+  text-align: center;
+}
+.MomStrong p {
+  text-align: center;
+  color: white;
+  font-size: x-large;
+}
+.MomStrong a:hover {
+  color: rgb(207, 60, 60);
+}
+.AllLevels {
+  background-color: white;
+  height: 1200px;
+  width: 80%;
+  margin-left: 150px;
+  padding-top: 100px;
+}
+.firstP {
+  color: red;
+  text-align: center;
+  font-size: x-large;
+}
+.SecondP {
+  text-align: center;
+  font-size: x-large;
+}
+.FirstTwoFlexes {
+  display: flex;
+}
+.GeneralFitness {
+  margin-top: 100px;
+
+  height: 200px;
+  width: 30%;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.GeneralFitness a {
+  color: red;
+  height: 200px;
+  text-decoration: none;
+  font-size: xx-large;
+}
+.GeneralFitness p {
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.GeneralFitness a:hover {
+  color: black;
+}
+.PhotoOne {
+  height: 220px;
+  width: 70%;
+
+  margin-top: 100px;
+  background-image: url("Photos/home-programs-beginner--large@2x_1200_600_80_c1.jpg");
+  background-size: cover;
+  padding-bottom: 100px;
+}
+.SecondTwoFlexes {
+  display: flex;
+}
+
+.PhotoTwo {
+  height: 400px;
+  width: 70%;
+  background-image: url("Photos/home-programs-competitive--large@2x_1200_600_80_c1.jpg");
+  background-size: cover;
+}
+.PersonalizedPerformance {
+  height: 350px;
+  width: 20%;
+  padding-top: 20px;
+  padding-left: 10px;
+}
+.PersonalizedPerformance a {
+  color: red;
+  text-decoration: none;
+  font-size: xx-large;
+}
+.PersonalizedPerformance p {
+  font-size: x-large;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.PersonalizedPerformance a:hover {
+  color: black;
+}
+.Services {
+  background-color: rgb(81, 81, 81);
+  height: 500px;
+  width: 100%;
+}
+.Services h1 {
+  padding-top: 100px;
+  padding-left: 150px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
+.ServiceFlex {
+  display: flex;
+}
+.MEMBERSHIPS {
+  height: 200px;
+  width: 50%;
+}
+
+.MEMBERSHIPS a:hover {
+  color: white;
+}
+.PROGRAMS {
+  height: 200px;
+  width: 50%;
+}
+
+.PROGRAMS a:hover {
+  color: white;
+}
+.h3Class {
+  color: white;
+  padding-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.aclass {
+  font-size: x-large;
+  text-decoration: none;
+  color: rgb(168, 168, 168);
+  padding-left: 150px;
+}
+.hrclass {
+  width: 300px;
+  margin-left: 150px;
+}
+.SectionAfterServices {
+  margin-top: 200px;
+  background-image: url("Photos/wallpaperflare.com_wallpaper\ \(18\).jpg");
+  height: 900px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.BeforFooter {
+  margin-top: 50px;
+  height: 300px;
+}
+.BeforFooter h2 {
+  margin-bottom: 100px;
+  text-align: center;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.BeforFooter a {
+  color: red;
+  text-decoration: none;
+  font-size: x-large;
+  border: 1px solid red;
+  margin-left: 590px;
+  padding: 30px;
+}
+.BeforFooter a:hover {
+  color: black;
+  border-color: black;
+}
+.BeforFooter p {
+  text-align: center;
+  margin-top: 50px;
+  padding-left: 10px;
+  color: rgb(111, 111, 111);
+
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.BeforFooter p:hover {
+  color: black;
+  cursor: pointer;
+}
+.footer {
+  display: flex;
+  background-color: rgb(81, 81, 81);
+  width: 100%;
+  height: 350px;
+}
+.photoInsideFooter {
+  background-image: url("Photos/wallpaperflare.com_wallpaper\ \(20\).jpg");
+  background-size: cover;
+  height: 300px;
+  width: 20%;
+
+  padding-left: 200px;
+  padding-right: 100px;
+}
+.GettingStartedFooter {
+  width: 100%;
+  text-align: center;
+  padding-top: 100px;
+}
+
+.allAClasses {
+  font-size: x-large;
+  color: rgb(170, 170, 170);
+  text-decoration: none;
+  text-align: center;
+}
+.allAClasses:hover {
+  color: black;
+}
+.marginClass {
+  margin-right: 50px;
+}
+.GettingStartedA {
+  text-decoration: none;
+  font-size: xx-large;
+  text-align: center;
+  border: 1px solid rgb(170, 170, 170);
+  padding: 20px;
+  color: rgb(170, 170, 170);
+}
+.GettingStartedA:hover {
+  color: black;
+  border-color: black;
+}
